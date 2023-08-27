@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AptiFy</string>
+    <string name="aptify">AptiFy</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="navigation_open">Open Navigation drawer</string>
+    <string name="navigation_close">Close Navigation drawer</string>
+    <string name="title_activity_score_history">scoreHistory</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

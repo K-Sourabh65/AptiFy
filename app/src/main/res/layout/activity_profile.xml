@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Profile image -->
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/avatar_13"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="@drawable/rounded_edit_text1"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:text="Sourabh Khot"/>
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_edit_text1"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:text="sourabhkhot65@gmail.com"/>
+
+    <!-- Age -->
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edit_text1"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:text="25"/>
+<!--    <Button-->
+<!--        android:id="@+id/resetpassbtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:background="@drawable/rounded_num_button"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="Reset Password"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+
+    <!-- Logout button -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_num_button"
+        android:padding="8dp"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

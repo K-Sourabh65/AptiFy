@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity_lederboard_loader">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/lead1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:text="Numeric Round"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/lead2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="29dp"-->
+    <!--        android:text="Verbal Round"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/lead1"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/lead3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="18dp"-->
+    <!--        android:text="Logical Round"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/lead4"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.625"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/lead4"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="26dp"-->
+    <!--        android:text="Critical Round"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.625"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="419dp"
+        android:layout_height="254dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_background" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="218dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/galada"
+        android:text="LeaderBoard"
+        android:textColor="#7079FB"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+
+
+    <FrameLayout
+        android:id="@+id/lead1"
+        android:layout_width="180dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#7179FB"
+        app:layout_constraintEnd_toStartOf="@+id/lead2"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/coding" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/galada"
+            android:gravity="center"
+            android:text="Technical Round"
+            android:textColor="#BEC0DD"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/lead2"
+        android:layout_width="180dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#7179FB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="136dp"
+            android:layout_height="102dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/logical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/galada"
+            android:gravity="center"
+            android:text="Logical Round"
+            android:textColor="#BEC0DD"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/lead3"
+        android:layout_width="180dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#7179FB"
+        app:layout_constraintEnd_toStartOf="@+id/lead4"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lead1">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="139dp"
+            android:layout_height="126dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/verbal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/galada"
+            android:gravity="center"
+            android:text="Verbal Round"
+            android:textColor="#BEC0DD"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/lead4"
+        android:layout_width="180dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#7179FB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lead2">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/numeric" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/galada"
+            android:gravity="center"
+            android:text="Numeric Round"
+            android:textColor="#BEC0DD"
+            android:textSize="20sp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

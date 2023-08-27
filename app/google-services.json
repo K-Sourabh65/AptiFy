@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "66390381283",
+    "project_id": "aptify-4401d",
+    "storage_bucket": "aptify-4401d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66390381283:android:b7a1f351b61f0ff683abd6",
+        "android_client_info": {
+          "package_name": "com.example.aptify_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66390381283-fk7iigvkch32ln0uq4gdir972i93toof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvg1_obldhAnZ_9xPcIJF3X7Jd0cHaYKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66390381283-fk7iigvkch32ln0uq4gdir972i93toof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
